@@ -1,0 +1,121 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 0, 0, 0.834);
+  color: white;
+}
+ul li {
+  list-style-type: none;
+  padding: 10px;
+
+  margin-left: 0%;
+  font-size: small;
+}
+ul li:hover {
+  background-color: rgba(98, 97, 97, 0.934);
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+ul {
+  margin-left: 0%;
+  padding-left: 0%;
+}
+.barp {
+  font-size: smaller;
+}
+p span {
+  font-size: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 10px 10px;
+  line-height: 25px;
+}
+.search-eng {
+  padding: 10px;
+  background-color: black;
+  color: rgb(171, 169, 169);
+  margin-right: 0px;
+}
+.search-bar a {
+    padding: 8px 25px 5px 18px;
+    
+    margin-left: 0px;
+}
+.search-bar{
+    margin: auto 5px;
+    width: fit-content;
+}
+.search-bar .mic{
+    background-color: black;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 35px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.icons a{
+    padding: 5px 10px;
+    margin: auto 1px;
+    
+}
+.icons{
+    margin: auto 5px;
+}
+.icons a img{
+  width: auto;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+.tabs a{
+text-decoration: none;
+color: white;
+border: 1px solid white;
+border-radius: 25px;
+padding: 8px 15px;
+
+}
+.tabs a:hover{
+    background-color: rgb(67, 66, 66);
+    transition: 0.2s;
+}
+.tabs{
+    width: 100vw;
+    overflow: scroll;
+}
+.main-content{
+    display: flex;
+}
+
+.card{
+  width: 290px;
+  padding: 15px 0px;
+  
+}
+.card p{
+  margin: 0%;
+}
+.card img{
+  border: 2px solid grey;
+}
+.card:hover{
+  
+  scale: 1.1;
+  transition: 0.3s;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
