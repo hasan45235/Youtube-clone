@@ -119,3 +119,12 @@ padding: 8px 15px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.card-content{
+  display: flex;
+  margin: auto 8px;
+  justify-content: space-between;
+  
+}
+.card-content img{
+  border-radius:50% ;
+}
